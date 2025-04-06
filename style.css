@@ -1,0 +1,81 @@
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 50px 50px 0 50px;
+  background-color: #faf9f6;
+  display: flex;
+  flex-direction: column;
+  min-height: 95vh;
+}
+.main {
+  flex: 1;
+}
+
+h1 {
+  font-size: 5rem;
+}
+
+footer {
+  text-align: center;
+  color: coral;
+}
+
+.tile-image{
+  margin-right: 50px;
+  height: 200px;
+  float: left;
+  border: 10px solid black;
+}
+
+.card{
+  width: 45%;
+}
+
+.left{
+  float: left;
+}
+
+.right{
+  float: right;
+}
+
+.creative{
+  color: midnightblue;
+}
+
+.valorant{
+  color: blueviolet;
+}
+
+.gta{
+  color: blueviolet;
+}
+
+.gaming{
+  color: brown;
+}
+
+@media (max-width: 680px){
+  .logo{
+    width: 100px;
+  }
+
+  h1{
+    text-align: center;
+    font-size: 3.5rem;
+  }
+
+  .card{
+    display: block;
+    width: 100%;
+    margin-bottom: 30px;
+    text-align: justify;
+  }
+
+  .card-img{
+    width: 100%;
+    display: inline;
+    object-fit: cover;
+    margin-bottom: 10px;
+  }
+}
+
